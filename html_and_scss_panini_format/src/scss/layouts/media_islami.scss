@@ -1,0 +1,23 @@
+
+  .media-islami-item{
+    position: relative;
+    border-radius: 3px;
+    background-color: #f9f9f9;
+    border: 1px solid #d4d4d4;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    flex-basis: 19%;
+    min-width: 144px;
+    padding: 10px;
+    margin: .3rem;
+    img{
+      width: 50%;
+      object-fit: contain;
+      margin-bottom: 5px;
+    }
+    &.slick-slide img {
+      display: block;
+      margin: 0 auto;
+    }
+  }

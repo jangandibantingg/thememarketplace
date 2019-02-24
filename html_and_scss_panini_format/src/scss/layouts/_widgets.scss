@@ -1,0 +1,136 @@
+
+.widgets {
+
+  .widget-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #454545;
+    position: relative;
+    display: block;
+    text-transform: uppercase;
+  }
+  .single-widget ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    li {
+      list-style: none;
+      display: block;
+    }
+  }
+  .widgetbox {
+    border: 1px solid $border-color;
+    .single-widget {
+      padding: 20px;
+      border-top: 1px solid $border-color;
+      &:first-child {
+        border-top: 0;
+      }
+    }
+  }
+  .widget-categories {
+    border: 1px solid $border-color;
+    padding: 20px;
+    ul li {
+      padding: 8px 0;
+      border-top: 1px solid $border-color;
+      &:first-child {
+        border-top: none;
+      }
+      &:last-child {
+        padding-bottom: 0;
+      }
+      a {
+        text-transform: uppercase;
+        color: #7e7e7e;
+        font-weight: 600;
+        display: block;
+        &::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        &:hover {
+          color: $primary-color;
+        }
+        span {
+          float: right;
+          background: $primary-color;
+          padding: 0 10px;
+          border-radius: 5px;
+          color: #fff;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .widget-color ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    li {
+      min-width: 50%;
+    }
+  }
+  .widget-filters .single-widget-range-price {
+    margin-top: 20px;
+    font-weight: 600;
+    color: #454545;
+    b {
+      color: #7e7e7e;
+    }
+  }
+  .widget-seller, .widget-shipping-methods {
+    border: 1px solid $border-color;
+    padding: 20px;
+  }
+  .widget-seller{
+    .seller-profile{
+      text-align: center;
+      .seller-name{
+        color: #454545;
+        font-weight: 500;
+        margin-top: 10px;
+
+      }
+      .btn{
+        height: 40px;
+        line-height: 35px;
+        font-size: 13px;
+      }
+    }
+    .seller-body{
+      .title{
+        font-size: 12px;
+      }
+      .description{
+        color: #454545;
+        font-weight: 600;
+      }
+    }
+  }
+  .widget-shipping-methods{
+    ul{
+      padding: 0;
+      list-style-type: none;
+
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  .widgets {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .widgets {
+    margin-top: 50px;
+  }
+}
+
+
+

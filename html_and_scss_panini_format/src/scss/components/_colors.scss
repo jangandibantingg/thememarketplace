@@ -1,0 +1,93 @@
+@each $color, $value in $colors {
+  @include bg-variant(".bg-#{$color}-lightest", mix($value, #fff, 10%));
+  @include bg-variant(".bg-#{$color}-lighter", mix($value, #fff, 30%));
+  @include bg-variant(".bg-#{$color}-light", mix($value, #fff, 70%));
+  @include bg-variant(".bg-#{$color}-dark", mix($value, #000, 80%));
+  @include bg-variant(".bg-#{$color}-darker", mix($value, #000, 40%));
+  @include bg-variant(".bg-#{$color}-darkest", mix($value, #000, 20%));
+}
+.bg-light{
+  background: #fafafa !important;
+}
+.bg-dark {
+  color: #fff;
+
+  h1, h2, h3, h4, h5, h6, p {
+    color: #fff;
+  }
+}
+
+.bg-dark-light {
+  color: #fff;
+
+  h1, h2, h3, h4, h5, h6, p {
+    color: #fff;
+  }
+}
+
+.bg-secondary {
+  color: #fff;
+
+  h1, h2, h3, h4, h5, h6, p {
+    color: #fff;
+  }
+}
+
+.bg-theme {
+  color: #fff;
+
+  h1, h2, h3, h4, h5, h6, p {
+    color: #fff;
+  }
+}
+
+.color-white {
+  color: #fff;
+}
+
+.bg-primary {
+  background: $primary-color !important;
+  color: $white;
+}
+
+.bg-secondary {
+  background: $secondary-color !important;
+}
+
+.bg-grey {
+  background: #f4f4f4 !important;
+}
+
+
+.bg-white {
+  background: #fff !important;
+}
+
+.bg-theme {
+  background: #0B88EE !important
+}
+
+.bg-secondary {
+  background: #FFE11B !important
+}
+
+
+.bg-grey {
+  background: #f4f4f4 !important
+}
+
+.bg-dark {
+  background: #2a2a2a !important
+}
+
+.bg-dark-light {
+  background: #323232 !important
+}
+
+.bg-black {
+  background: #000 !important
+}
+
+.bg-white {
+  background: #fff !important
+}

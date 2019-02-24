@@ -1,0 +1,55 @@
+
+.breadcrumb {
+  margin-bottom: 0;
+  padding: 0;
+  background: none;
+}
+
+.breadcrumb ul {
+  display: inline-block;
+  padding: 15px 0;
+  margin-bottom: 0;
+  font-size: 0;
+
+  li {
+    color: #454545;
+    display: inline-block;
+    padding: 8px 0;
+    font-size: 14px;
+
+    &::after {
+      font-family: booraq-font-icon;
+      content: "\e827";
+      color: #7e7e7e;
+      margin: 0 5px;
+    }
+
+    &:last-child::after {
+      display: none;
+    }
+  }
+}
+
+
+.breadcrumb ul li a {
+  color: #7e7e7e;
+}
+
+.page-breadcrumb {
+  background: none;
+  padding: 0;
+  margin: 1rem 0 0;
+  font-size: px2rem(14px);
+
+  @include media-breakpoint-up(md) {
+    margin: -.5rem 0 0;
+  }
+
+  .breadcrumb-item {
+    color: $text-muted;
+
+    &.active {
+      color: $text-muted-dark;
+    }
+  }
+}

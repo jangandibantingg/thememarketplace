@@ -1,0 +1,37 @@
+.table-sholat{
+  border: 1px solid $border-color;
+
+  thead{
+    background: $primary-color;
+    th,td{
+      color: $white;
+    }
+    .nice-select, input{
+      background: $white;
+    }
+    nice-select.open{
+      color: $font-color;
+    }
+  }
+}
+.sholat-widget {
+  display: block;
+  border: 1px solid $border-color;
+  .table{
+
+    td, th{
+      padding: 5px 0;
+    }
+  }
+
+}
+
+.widget-header{
+  padding: 10px 20px;
+  background: $primary-color;
+  color: $white;
+  font-weight: 500;
+}
+.widget-content{
+  padding: 20px;
+}

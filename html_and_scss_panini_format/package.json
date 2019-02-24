@@ -1,0 +1,57 @@
+{
+  "name": "sass-turbo-boilerplate",
+  "version": "1.0.0",
+  "description": "A professional front-end template for building fast, structured, and adaptable template site. with gulp",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build --production"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "chart.js": "chartjs#^2.7.3",
+    "dropify": "^0.2.2",
+    "dropzone": "^5.5.1",
+    "jquery": "^3.3.1",
+    "modernizr": "^3.6.0",
+    "popper.js": "^1.14.7"
+
+
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/register": "^7.0.0",
+    "autoprefixer": "^9.1.5",
+    "babel-loader": "^8.0.4",
+    "browser-sync": "^2.10.0",
+    "copy-node-modules": "^1.0.8",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-cli": "^2.0.1",
+    "gulp-concat": "^2.5.2",
+    "gulp-extname": "^0.2.0",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-npm-dist": "^1.0.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "js-yaml": "^3.4.6",
+    "panini": "^1.3.0",
+    "rimraf": "^2.4.3",
+    "style-sherpa": "^1.0.0",
+    "uncss": "^0.16.2",
+    "vinyl-named": "^1.1.0",
+    "webpack": "^4.20.2",
+    "webpack-stream": "^5.1.1",
+    "yargs": "^12.0.2"
+  },
+  "private": true
+}

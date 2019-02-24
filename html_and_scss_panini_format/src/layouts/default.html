@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="assets/css/core.vendors.css">
+  <link rel="stylesheet" href="assets/css/icons.css">
+  <link rel="stylesheet" href="assets/css/app.css">
+  {{#ifpage 'mitra-personal' 'mitra-terdaftar'}}
+  <link rel="stylesheet" href="assets/vendors/steps/steps.css">
+    <link rel="stylesheet" href="assets/vendors/dropify/dropify.min.css">
+
+
+  {{/ifpage}}
+
+</head>
+<body>
+<div class="wrapper">
+  <div class="overlay"></div>
+
+  {{> header}}
+  {{> body}}
+
+  {{> footer}}
+</div>
+{{>login}}
+{{#ifpage 'checkout' 'account' }}
+  {{>address}}
+{{/ifpage}}
+
+<script src="assets/vendors/jquery/jquery.min.js"></script>
+<script src="assets/vendors/popper.js/popper.min.js"></script>
+<script src="assets/vendors/bootstrap/bootstrap.min.js"></script>
+
+<script src="../assets/js/core.vendors.js"></script>
+<script src="../assets/js/app.js"></script>
+{{#ifpage 'mitra-personal' 'mitra-terdaftar'}}
+
+<script src="assets/vendors/steps/steps.js"></script>
+<script src="assets/vendors/dropify/dropify.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // Basic
+        $('.dropify').dropify();
+    });
+
+    $(".tab-wizard").steps({
+        headerTag: "h6",
+        bodyTag: "section",
+        transitionEffect: "fade",
+        titleTemplate: '<span class="step">#index#</span> #title#',
+        labels: {
+            finish: "DAFTAR MITRA"
+        },
+        onFinished: function (event, currentIndex) {
+            swal("Form Submitted!", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem erat eleifend ex semper, lobortis purus sed.");
+        }
+    });
+</script>
+{{/ifpage}}
+</body>
+</html>
+

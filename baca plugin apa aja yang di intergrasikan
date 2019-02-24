@@ -1,0 +1,14 @@
+core vendor plugin
+Bootstrap
+Jquery
+Popper
+jQuery Countdown
+jQuery Lightgallery
+Range Slider
+Scroll Up
+
+
+tambahan
+- step wizard 
+- dropzone untuk multiple upload, silangkan baca dokumentasi untuk menyesuaikan ajax dengan dropzone https://www.dropzonejs.com/
+- dropyfy untuk single upload 

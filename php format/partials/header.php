@@ -1,0 +1,318 @@
+
+<section id="header" class="header">
+    <div class="header-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <p>Welcome to Booraq, the best muslim ecommerce</p>
+                </div><!-- /.col-md-4 -->
+
+                <div class="col-md-8">
+                    <ul class="flat-unstyled">
+                        <li class="account">
+                            <a href="#" title="">Traking Order</a>
+                        </li>
+                        <li>
+                            <a href="#" title="">Helped</a>
+                        </li>
+                        <li>
+                            <a href="#" title="">FAQ</a>
+
+                        </li>
+                    </ul><!-- /.flat-unstyled -->
+                </div><!-- /.col-md-4 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /.header-top -->
+    <div class="header-middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div id="logo" class="logo">
+                        <a href="index.php" title="" class="logo-text">
+                            <img src="assets/images/logo/logo.png" alt="">
+                        </a>
+                    </div><!-- /#logo -->
+                </div><!-- /.col-md-3 -->
+                <div class="col-md-6">
+                    <div class="top-search">
+                        <form action="#" class="header-searchbox">
+                            <select class="select-searchcategory">
+                                <option value="0">All categories</option>
+                                <option value="1">Fashion</option>
+                                <option value="2">Women</option>
+                                <option value="3">Dresses</option>
+                                <option value="4">Shirts</option>
+                                <option value="5">Blazers</option>
+                                <option value="6">Lingerie</option>
+                                <option value="6">Jeans</option>
+                                <option value="6">Shorts</option>
+                                <option value="6">Sportswear</option>
+                                <option value="6">Swimwear</option>
+                                <option value="6">Kids</option>
+                            </select>
+                            <input type="text" placeholder="Enter your search key ...">
+                            <button type="submit"><i class="icon-search"></i></button>
+                        </form>
+                    </div><!-- /.top-search -->
+                </div><!-- /.col-md-6 -->
+                <div class="col-md-3">
+                    <div class="header-icons-menu">
+                        <div class="inner-box">
+                            <a href="#" title="">
+                                <div class="icon-account">
+                                    <img src="assets/images/icons/user.png" alt="">
+
+                                </div>
+                            </a>
+                            <div class="dropdown-box dropdown-account">
+                                <div class="dropdown-header">
+                                    Selamat Datang
+                                </div>
+                                <ul >
+                                    <li>
+                                        <a href="#" id="btnLogin">Masuk</a>
+                                    </li>
+                                    <li>
+                                        <a href="daftar.php" title="">Daftar</a>
+                                    </li>
+                                    <li>
+                                        <a href="chat.php" title="">Chat <span >2</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="order.php" title="">Order </a>
+                                    </li>
+                                    <li>
+                                        <a href="account.php" title="">My Account</a>
+                                    </li>
+                                    <li>
+                                        <a href="shop-checkout.php" title="">Logout</a>
+                                    </li>
+                                </ul><!-- /.unstyled -->
+                            </div>
+
+
+                        </div>
+                        <div class="inner-box">
+                            <ul class="menu-compare-wishlist">
+
+                                <li class="wishlist">
+                                    <a href="wishlist.php" title="">
+                                        <img src="assets/images/icons/wishlist.png" alt="">
+                                    </a>
+                                </li>
+                            </ul><!-- /.menu-compare-wishlist -->
+                        </div><!-- /.inner-box -->
+                        <div class="inner-box">
+                            <a href="#" title="">
+                                <div class="icon-mini-cart">
+                                    <img src="assets/images/icons/cart.png" alt="">
+                                    <span>4</span>
+                                </div>
+                            </a>
+                            <div class="dropdown-box dropdown-cart">
+                                <ul>
+                                    <li>
+                                        <div class="img-product">
+                                            <img src="images/product/other/img-cart-1.jpg" alt="">
+                                        </div>
+                                        <div class="info-product">
+                                            <div class="name">
+                                                Samsung - Galaxy S6 4G LTE <br />with 32GB Memory Cell Phone
+                                            </div>
+                                            <div class="price">
+                                                <span>1 x</span>
+                                                <span>$250.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <span class="delete">x</span>
+                                    </li>
+                                    <li>
+                                        <div class="img-product">
+                                            <img src="images/product/other/img-cart-2.jpg" alt="">
+                                        </div>
+                                        <div class="info-product">
+                                            <div class="name">
+                                                Sennheiser - Over-the-Ear Headphone System - Black
+                                            </div>
+                                            <div class="price">
+                                                <span>1 x</span>
+                                                <span>$250.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <span class="delete">x</span>
+                                    </li>
+                                </ul>
+                                <div class="total">
+                                    <span>Subtotal:</span>
+                                    <span class="price">$1,999.00</span>
+                                </div>
+                                <div class="btn-cart">
+                                    <a href="cart.php" class="view-cart" title="">View Cart</a>
+                                    <a href="checkout.php" class="check-out" title="">Checkout</a>
+                                </div>
+                            </div>
+                        </div><!-- /.inner-box -->
+                    </div><!-- /.header-icons-menu -->
+                </div><!-- /.col-md-3 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /.header-middle -->
+    <div class="header-bottom">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12">
+                    <div class="nav-wrap">
+                        <div id="mainnav" class="mainnav">
+                            <ul class="menu">
+                                <li><a href="index.php" title="">BERANDA</a></li>
+                                <li><a href="about.php" title="">TENTANG KAMI</a></li>
+
+                                <li class="has-mega-menu">
+                                    <a href="#" title="">MARKETPLACE</a>
+                                    <div class="submenu">
+                                        <div class="row">
+                                            <div class="col-lg-3 col-md-12">
+                                                <h3 class="cat-title">Accessories</h3>
+                                                <ul class="submenu-child">
+                                                    <li>
+                                                        <a href="#" title="">Electronics</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="">Furniture</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="">Accessories</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="">Divided</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="">Everyday Fashion</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="">Modern Classic</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="">Party</a>
+                                                    </li>
+                                                </ul>
+                                                <div class="show">
+                                                    <a href="#" title="">Shop All</a>
+                                                </div>
+                                            </div><!-- /.col-lg-3 col-md-12 -->
+                                            <div class="col-lg-3 col-md-12">
+                                                <h3 class="cat-title">Laptop And Computer</h3>
+                                                <ul class="submenu-child">
+                                                    <li>
+                                                        <a href="#" title="">Networking &amp; Internet Devices</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="">Laptops, Desktops &amp; Monitors</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="">Hard Drives &amp; Memory Cards</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="">Printers &amp; Ink</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="">Networking &amp; Internet Devices</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="">Computer Accessories</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="">Software</a>
+                                                    </li>
+                                                </ul>
+                                                <div class="show">
+                                                    <a href="#" title="">Shop All</a>
+                                                </div>
+                                            </div><!-- /.col-lg-3 col-md-12 -->
+                                            <div class="col-lg-4 col-md-12">
+                                                <h3 class="cat-title">Audio &amp; Video</h3>
+                                                <ul class="submenu-child">
+                                                    <li>
+                                                        <a href="#" title="">Headphones &amp; Speakers</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="">Home Entertainment Systems</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="">MP3 &amp; Media Players</a>
+                                                    </li>
+                                                </ul>
+                                                <div class="show">
+                                                    <a href="#" title="">Shop All</a>
+                                                </div>
+                                            </div><!-- /.col-lg-4 col-md-12 -->
+                                            <div class="col-lg-2 col-md-12">
+                                                <h3 class="cat-title">Home Audio</h3>
+                                                <ul class="submenu-child">
+                                                    <li>
+                                                        <a href="#" title="">Home Theater Systems</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="">Receivers &amp; Amplifiers</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="">Speakers</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="">CD Players &amp; Turntables</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="">High-Resolution Audio</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="">4K Ultra HD TVs</a>
+                                                    </li>
+                                                </ul>
+                                                <div class="show">
+                                                    <a href="#" title="">Shop All</a>
+                                                </div>
+                                            </div><!-- /.col-lg-2 col-md-12 -->
+                                        </div><!-- /.row -->
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="banner-box">
+                                                    <div class="inner-box">
+                                                        <a href="#" title="">
+                                                            <img src="images/banner_boxes/submenu-01.png" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="banner-box">
+                                                    <div class="inner-box">
+                                                        <a href="#" title="">
+                                                            <img src="images/banner_boxes/submenu-02.png" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- /.row -->
+                                    </div><!-- /.submenu -->
+                                </li>
+                                <li><a href="blog.php" title="">ARTIKEL</a></li>
+                                <li><a href="blog.php" title="">HASANA ISLAM</a></li>
+                                <li><a href="jadwal-sholat.php" title="">INFO SHOLAT</a></li>
+                            </ul><!-- /.menu -->
+                        </div><!-- /.mainnav -->
+                    </div><!-- /.nav-wrap -->
+                    <div class="join-partner">
+                        <a href="mitra.php" title="">JADI MITRA</a>
+                    </div><!-- /.today-deal -->
+                    <div class="btn-menu">
+                        <span></span>
+                    </div><!-- //mobile menu button -->
+                </div><!-- /.col-md-9 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /.header-bottom -->
+</section>

@@ -1,0 +1,142 @@
+
+
+
+button, a.btn {
+	letter-spacing: .03em;
+	font-size: px2rem(13px);
+	min-width: px2rem(38px);
+	height: 45px;
+	line-height: 43px;
+	padding: 0 15px;
+	i {
+		font-size: 1rem;
+		vertical-align: -2px;
+	}
+}
+
+.btn{
+
+	font-size: px2rem(13px);
+	min-width: px2rem(38px);
+	i {
+		font-size: 1rem;
+		vertical-align: -2px;
+	}
+}
+
+
+.btn-icon {
+	padding-left: .5rem;
+	padding-right: .5rem;
+	text-align: center;
+}
+
+
+.btn-primary {
+	color: $white !important;
+	background: $primary-color;
+	border: 0;
+}
+
+.btn-outline-primary {
+	color: $primary-color !important;
+	border: 1px solid $primary-color;
+	&:hover{
+		color: $white !important;
+		background: $primary-color;
+		border: 1px solid $primary-color;
+	}
+}
+
+.btn-secondary {
+	color: $white !important;
+	background: $secondary-color;
+	border: 0;
+}
+
+.btn-outline-secondary {
+	color: $secondary-color !important;
+	border: 1px solid $secondary-color;
+
+	&:hover{
+
+		color: $white !important;
+		background: $secondary-color;
+		border: 1px solid $secondary-color;
+	}
+}
+.btn-grey{
+	background: $white !important;
+	border: 1px solid rgba(0, 40, 100, 0.12);
+	&:hover{
+		background: #EEEEEE;
+	}
+}
+
+.btn-pill {
+	border-radius: 10rem;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+
+.btn-square {
+	border-radius: 0;
+}
+
+@each $vendor, $color in $social-colors {
+	.btn-#{$vendor} {
+		@include button-variant($color, $color);
+	}
+}
+
+@each $vendor, $color in $colors {
+	.btn-#{$vendor} {
+		@include button-variant($color, $color);
+	}
+}
+
+.btn-option {
+	background: transparent;
+	color: $text-muted;
+
+	&:hover {
+		color: $text-muted-dark;
+	}
+
+	&:focus {
+		box-shadow: none;
+		color: $text-muted-dark;
+	}
+}
+
+.btn-sm {
+	font-size: px2rem(12px);
+	min-width: px2rem(26px);
+}
+
+a.btn-sm,button.btn-sm{
+	padding: 3px 10px;
+	height: inherit;
+	line-height: inherit
+}
+
+.btn-lg {
+	font-size: px2rem(16px);
+	min-width: px2rem(44px);
+	font-weight: 400;
+}
+
+.btn-list {
+	margin-bottom: -.5rem;
+	font-size: 0;
+
+	>.btn,
+	>.dropdown {
+		margin-bottom: .5rem;
+
+		&:not(:last-child) {
+			margin-right: .5rem;
+		}
+	}
+}
+
